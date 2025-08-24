@@ -67,26 +67,33 @@
 
 ### Script example:
 
-   ```
-   await ms(1000);
-   left_click(100,200);
-   hold("shift");
-   press("h");
-   release("shift");
-   press("e");
-   press("l");
-   press("l");
-   press("o");
-   press("space");
-   press("w");
-   press("o");
-   press("r");
-   press("l");
-   press("d");
-   hold("shift");
-   for (int i = 0; i < 3; i++)
-   {
-      press("1");
-   }
-   release("shift");
-   ```
+```
+await ms(1000);
+left_click(100,200);
+hold("shift");
+press("h");
+release("shift");
+press("e");
+press("l");
+press("l");
+press("o");
+press("space");
+press("w");
+press("o");
+press("r");
+press("l");
+press("d");
+hold("shift");
+for (int i = 0; i < 3; i++)
+{
+  press("1");
+}
+release("shift");
+press("ctrl", "a");
+press("ctrl", "c");
+press("right");
+press("enter");
+press("ctrl", "v");
+press("enter");
+press("ctrl", "v");
+```
